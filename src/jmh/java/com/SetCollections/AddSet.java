@@ -1,4 +1,4 @@
-package com;
+package com.SetCollections;
 
 import org.openjdk.jmh.annotations.*;
 import java.util.*;
@@ -7,9 +7,9 @@ import java.util.concurrent.TimeUnit;
 @State(Scope.Thread)
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
-public class SetCollections {
+public class AddSet {
 
-    public Integer COUNT = 100_000;
+    public Integer COUNT = 1_000_000;
     public Random random = new Random();
 
     public Set<Integer> hashSet;
