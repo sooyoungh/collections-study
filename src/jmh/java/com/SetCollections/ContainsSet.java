@@ -24,6 +24,7 @@ public class ContainsSet {
         hashSet = new HashSet<>();
         treeSet = new TreeSet<>();
         linkedHashSet = new LinkedHashSet<>();
+        randomNumbers = new ArrayList<>();
 
         for (int i = 0; i < SIZE; i++) {
             Integer randomNumber = random.nextInt();
